@@ -3,23 +3,22 @@ body{
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    width: 1000px;
    margin: auto;
-   background-color: green;
+   background-color: rgb(178, 236, 178);
 }
 h1 {
-   color: #493595 ;
+   color: #0b061e ;
    margin-left: 80px;
    text-align: center;
 }
 h2 {
-   color: #00bd29 ;
+   color: green ;
    margin-left: 80px;
    text-align: right;
 }
 nav{
-   background-color: #0099ff ;
+   background-color: rgb(99, 53, 0) ;
    height: 40px;
    padding-bottom: 20px;
-   white-space: nowrap;
 }
 nav ul {
    list-style: none; 
@@ -27,16 +26,17 @@ nav ul {
 }
 nav li {
    display: inline;
+   font-size: small;
 }
 nav a {
    text-decoration: none;
-   color: gold;
+   color: goldenrod;
    font-size: 1.2em;
    font-weight: bold;
    margin-right: 20px;
 }
 nav a:hover{
-   color: black;
+   color: goldenrod;
 }
 section {
    float: left;
@@ -47,7 +47,7 @@ section {
 
 footer {
    clear: both;
-   background-color: #0099ff;
+   background-color: rgb(99, 53, 0);
    color: white;
    height: 30px;
    text-align: center;
@@ -72,11 +72,15 @@ table {
    margin-bottom: 10px;
 }
 p {
-   color: goldenrod ;
+   color: black ;
    margin-left: 80px;
    text-align: center;
 }
-table {color: goldenrod;
+table {color: black ;
 }
-label {color: goldenrod;
+form {color: black ;
+}
+label {color: black ;
+}
+h4 {color: goldenrod ;
 }
