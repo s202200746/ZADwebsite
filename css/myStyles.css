@@ -11,7 +11,7 @@ h1 {
    text-align: center;
 }
 h2 {
-   color: green ;
+   color: black ;
    margin-left: 80px;
    text-align: right;
 }
@@ -30,13 +30,13 @@ nav li {
 }
 nav a {
    text-decoration: none;
-   color: goldenrod;
+   color: black;
    font-size: 1.2em;
    font-weight: bold;
    margin-right: 20px;
 }
 nav a:hover{
-   color: goldenrod;
+   color: black;
 }
 section {
    float: left;
@@ -82,5 +82,5 @@ form {color: black ;
 }
 label {color: black ;
 }
-h4 {color: goldenrod ;
+h4 {color: black ;
 }
