@@ -3,7 +3,7 @@ body{
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    width: 1000px;
    margin: auto;
-   background-color: rgb(178, 236, 178);
+   background-color: white;
 }
 h1 {
    color: #0b061e ;
@@ -16,7 +16,7 @@ h2 {
    text-align: right;
 }
 nav{
-   background-color: rgb(99, 53, 0) ;
+   background-color: lightgrey ;
    height: 40px;
    padding-bottom: 20px;
 }
@@ -47,7 +47,7 @@ section {
 
 footer {
    clear: both;
-   background-color: rgb(99, 53, 0);
+   background-color: lightgrey;
    color: white;
    height: 30px;
    text-align: center;
